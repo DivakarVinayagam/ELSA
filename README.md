@@ -23,8 +23,8 @@ ELSA is a real-time NLP application that leverages a fine-tuned RoBERTa transfor
 ```text
 ELSA/
 ├── .gitignore              # Configured to exclude virtual environments (.venv)
-├── 
-├── 
+├── app.py                  # Main execution script
 ├── goemotions_1.csv        # Evaluation dataset split
 ├── goemotions_2.csv        # Evaluation dataset split
-└── goemotions_3.csv        # Evaluation dataset split
+├── goemotions_3.csv        # Evaluation dataset split
+├── requirements.txt        # Project dependencies
